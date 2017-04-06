@@ -1355,6 +1355,7 @@ base2     | caret
 
 
 
+
         <!-- PHP -->
         <dict>
             <key>name</key>
@@ -1363,8 +1364,11 @@ base2     | caret
             <string>punctuation.definition.variable.php</string>
             <key>settings</key>
             <dict>
+                <key>fontStyle</key>
+                <string></string>
                 <key>foreground</key>
-                <string>#b58900</string>
+                <string>#859900</string>
+                <!-- <string>#b58900</string> -->
             </dict>
         </dict>
         <dict>
