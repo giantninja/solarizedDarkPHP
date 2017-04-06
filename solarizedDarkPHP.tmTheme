@@ -1380,14 +1380,16 @@ base2     | caret
         </dict>
         <dict>
             <key>name</key>
-            <string>PHP: Include</string>
+            <string>PHP: Include/require keywords</string>
             <key>scope</key>
             <string>keyword.control.import.include.php</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#BD3800</string>
-                <!-- <string>#dc322f</string> -->
+                <!-- <string>#BD3800</string> -->
+                <string>#dc322f</string>
+                <key>fontStyle</key>
+                <string>bold</string>
             </dict>
         </dict>
         <dict>
@@ -1502,8 +1504,9 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
+                <string>#859900</string>
                 <!-- <string>#b58900</string> -->
-                <string>#dc322f</string>
+                <!-- <string>#dc322f</string> -->
             </dict>
         </dict>
         <dict>
@@ -1564,23 +1567,15 @@ base2     | caret
             </dict>
         </dict>
 
-
-        <!-- <dict>
-            <key>name</key>
-            <string>PHP: Function Construct</string>
-            <key>scope</key>
-            <string>support.function.construct.php</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#748B00</string>
-            </dict>
-        </dict> -->
+        <!-- 
+            super annoying that there isn't a general scope to target for all native php functions,
+            so we'll keep adding them as they are encountered
+        -->
         <dict>
             <key>name</key>
-            <string>PHP: native function</string>
+            <string>PHP: native functions</string>
             <key>scope</key>
-            <string>support.function.var.php, support.function.string.php, support.function.construct.php, support.function.output.php, support.function.array.php, meta.function-call.php support.function.array.php, meta.function-call.php support.function.streamsfuncs.php, support.function.mcrypt.php, support.function.url.php, support.function.zlib.php</string>
+            <string>support.function.var.php, support.function.string.php, support.function.construct.php, support.function.output.php, support.function.array.php, support.function.array.php, support.function.streamsfuncs.php, support.function.mcrypt.php, support.function.url.php, support.function.zlib.php, support.function.basic_functions.php, support.function.errorfunc.php,  support.function.funchand.php, support.function.json.php</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1588,8 +1583,6 @@ base2     | caret
                 <string>#dc322f</string>
             </dict>
         </dict>
-
-
         <dict>
             <key>name</key>
             <string>PHP: Function Call</string>
@@ -1673,14 +1666,14 @@ base2     | caret
             <string>constant.other.php</string>
             <key>settings</key>
             <dict>
-                <!-- <key>fontStyle</key>
-                <string>bold</string>
-                <key>foreground</key>
-                <string>#dc322f</string> -->
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#b58900</string>
+                <string>#dc322f</string>
+                <!-- <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#b58900</string> -->
             </dict>
         </dict>
         <dict>
@@ -1697,7 +1690,8 @@ base2     | caret
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#dc322f</string>
+                <string>#b58900</string>
+                <!-- <string>#dc322f</string> -->
             </dict>
         </dict>
 
