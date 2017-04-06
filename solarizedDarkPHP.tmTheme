@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>steveSolarizedTweaked</string> <!-- based off the solarized dark from package control -->
+    <string>solarizedDarkPHP</string> <!-- based off the solarized dark from package control -->
     <key>settings</key>
     <array>
 
