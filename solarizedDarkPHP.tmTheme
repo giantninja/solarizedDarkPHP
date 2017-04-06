@@ -1583,8 +1583,9 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <!-- <string>#b58900</string> -->
-                <string>#dc322f</string>
+                <string>#b58900</string>
+                <!-- <string>#dc322f</string> -->
+                <!-- <string>#859900</string> -->
             </dict>
         </dict>
         <dict>
@@ -1665,7 +1666,7 @@ base2     | caret
         </dict>
         <dict>
             <key>name</key>
-            <string>PHP: user defined constant</string>
+            <string>PHP: user defined constants</string>
             <key>scope</key>
             <string>constant.other.php</string>
             <key>settings</key>
@@ -1682,19 +1683,33 @@ base2     | caret
         </dict>
         <dict>
             <key>name</key>
-            <string>PHP: constant</string>
+            <string>PHP: language constants</string>
             <key>scope</key>
-            <string>constant.language.php, support.constant.ext.php</string>
+            <string>constant.language.php</string>
             <key>settings</key>
             <dict>
-                <!-- <key>fontStyle</key>
-                <string>bold</string>
-                <key>foreground</key>
-                <string>#b58900</string> -->
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
                 <string>#b58900</string>
+                <!-- <string>#eee8d5</string> -->
+                <!-- <string>#268bd2</string> -->
+                <!-- <string>#dc322f</string> -->
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>PHP: support/predefined constants</string>
+            <key>scope</key>
+            <string>support.constant.ext.php</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string></string>
+                <key>foreground</key>
+                <string>#eee8d5</string>
+                <!-- <string>#268bd2</string> -->
+                <!-- <string>#b58900</string> -->
                 <!-- <string>#dc322f</string> -->
             </dict>
         </dict>
