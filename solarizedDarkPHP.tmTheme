@@ -1457,7 +1457,8 @@ base2     | caret
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <string>#eee8d5</string>
+                <!-- <string>#eee8d5</string> -->
+                <string>#93a1a1</string>
             </dict>
         </dict>
         <dict>
@@ -1484,9 +1485,9 @@ base2     | caret
         </dict>
         <dict>
             <key>name</key>
-            <string>PHP: Class/extends/implements keywords</string>
+            <string>PHP: Class/extends/implements/abstract keywords</string>
             <key>scope</key>
-            <string>storage.type.class.php, storage.modifier.extends.php, storage.modifier.implements.php</string>
+            <string>storage.type.class.php, storage.modifier.extends.php, storage.modifier.implements.php, source.php meta.class.php storage.modifier.abstract.php</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1558,7 +1559,8 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#eee8d5</string>
+                <!-- <string>#eee8d5</string> -->
+                <string>#93a1a1</string>
             </dict>
         </dict>
 

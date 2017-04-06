@@ -42,6 +42,18 @@ base2     | caret
 `#859900` | punctuation.definition
 
 
+#### reset colorscheme in sublime text 3
+
+all tabs:  
+```
+[ v.settings().erase("color_scheme") for views in [ w.views() for w in sublime.windows() ] for v in views ]
+```
+
+just the active tab:  
+```
+view.settings().erase("color_scheme")
+```
+
 
 
 
