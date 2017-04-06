@@ -1514,14 +1514,14 @@ base2     | caret
         </dict>
         <dict>
             <key>name</key>
-            <string>PHP: Class</string>
+            <string>PHP: Class name declaration</string>
             <key>scope</key>
-            <string>meta.class.php, entity.name.class.php, entity.name.class.php</string>
+            <string>entity.name.class.php, embedding.php text.html.basic meta.embedded.block.php source.php meta.class.php entity.name.class.php</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <!-- <string>#536871</string> -->
-                <string>#eee8d5</string>
+                <string>#93a1a1</string>
             </dict>
         </dict>
         <dict>
@@ -1703,7 +1703,7 @@ base2     | caret
 
         <dict>
             <key>name</key>
-            <string>PHP: keyword</string>
+            <string>PHP: language keywords</string>
             <key>scope</key>
             <string>keyword.control.php</string>
             <key>settings</key>
@@ -1711,33 +1711,17 @@ base2     | caret
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <!-- <string>#b58900</string> -->
                 <string>#859900</string>
             </dict>
         </dict>
-
         <dict>
             <key>name</key>
-            <string>PHP: user function in html template</string>
-            <key>scope</key>
-            <string>embedding.php text.html.basic meta.embedded.line.php source.php meta.function-call.php variable.function.php</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <!-- <string>#839496</string> -->
-                <string>#93a1a1</string>
-            </dict>
-        </dict>
-
-        <dict>
-            <key>name</key>
-            <string>PHP: user function</string>
+            <string>PHP: user function call</string>
             <key>scope</key>
             <string>variable.function.php</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <!-- <string>#839496</string> -->
                 <string>#93a1a1</string>
             </dict>
         </dict>
