@@ -1713,7 +1713,6 @@ base2     | caret
                 <!-- <string>#dc322f</string> -->
             </dict>
         </dict>
-
         <dict>
             <key>name</key>
             <string>PHP: language keywords</string>
