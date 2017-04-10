@@ -1566,8 +1566,9 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
+                <string>#b58900</string>
+                <!-- <string>#93a1a1</string> -->
                 <!-- <string>#eee8d5</string> -->
-                <string>#93a1a1</string>
             </dict>
         </dict>
 
@@ -1583,9 +1584,9 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#b58900</string>
+                <string>#859900</string>
+                <!-- <string>#b58900</string> -->
                 <!-- <string>#dc322f</string> -->
-                <!-- <string>#859900</string> -->
             </dict>
         </dict>
         <dict>
@@ -1621,9 +1622,10 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
+                <string>#268bd2</string>
+                <!-- <string>#b58900</string> -->
                 <!-- <string>#dc322f</string> -->
                 <!-- <string>#859900</string> -->
-                <string>#b58900</string>
             </dict>
         </dict>
         
@@ -1735,14 +1737,15 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#93a1a1</string>
+                <string>#b58900</string>
+                <!-- <string>#93a1a1</string> -->
             </dict>
         </dict>
         <dict>
             <key>name</key>
             <string>PHP: variable</string>
             <key>scope</key>
-            <string>variable.other.php, variable.other.class.php</string>
+            <string>variable.other.php, variable.other.class.php, variable.other.member.php</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -1751,7 +1754,7 @@ base2     | caret
         </dict>
         <dict>
             <key>name</key>
-            <string>PHP: variable language (self)</string>
+            <string>PHP: variable language (this/self)</string>
             <key>scope</key>
             <string>variable.language.php</string>
             <key>settings</key>
@@ -1759,7 +1762,8 @@ base2     | caret
                 <key>fontStyle</key>
                 <string>bold</string>
                 <key>foreground</key>
-                <string>#268bd2</string>
+                <string>#d33682</string>
+                <!-- <string>#268bd2</string> -->
             </dict>
         </dict>
 
