@@ -1457,14 +1457,14 @@ base2     | caret
             <key>name</key>
             <string>PHP: Classname (i.e. Class::method())</string>
             <key>scope</key>
-            <string>support.class.php, keyword.operator.class</string>
+            <string>support.class.php</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
-                <string></string>
+                <string>bold</string>
                 <key>foreground</key>
-                <!-- <string>#eee8d5</string> -->
                 <string>#93a1a1</string>
+                <!-- <string>#eee8d5</string> -->
             </dict>
         </dict>
         <dict>
@@ -1497,7 +1497,8 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#b58900</string>
+                <string>#268bd2</string>
+                <!-- <string>#b58900</string> -->
             </dict>
         </dict>
         <dict>
@@ -1527,8 +1528,8 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <!-- <string>#536871</string> -->
                 <string>#93a1a1</string>
+                <!-- <string>#536871</string> -->
             </dict>
         </dict>
         <dict>
@@ -1541,8 +1542,8 @@ base2     | caret
                 <key>fontStyle</key>
                 <string></string>
                 <key>foreground</key>
-                <!-- <string>#536871</string> -->
                 <string>#93a1a1</string>
+                <!-- <string>#536871</string> -->
             </dict>
         </dict>
         <dict>
@@ -1553,15 +1554,14 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <!-- <string>#748B00</string> -->
                 <string>#b58900</string>
+                <!-- <string>#748B00</string> -->
             </dict>
         </dict>
         <dict>
             <key>name</key>
             <string>PHP: Function declaration</string>
             <key>scope</key>
-            <!-- <string>entity.name.function.php, entity.name.function.php support.function.magic.php</string> -->
             <string>entity.name.function.php, support.function.magic.php</string>
             <key>settings</key>
             <dict>
@@ -1597,7 +1597,7 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#536871</string>
+                <string>#93a1a1</string>
             </dict>
         </dict>
         <dict>
@@ -1737,8 +1737,8 @@ base2     | caret
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#b58900</string>
-                <!-- <string>#93a1a1</string> -->
+                <string>#93a1a1</string>
+                <!-- <string>#b58900</string> -->
             </dict>
         </dict>
         <dict>
